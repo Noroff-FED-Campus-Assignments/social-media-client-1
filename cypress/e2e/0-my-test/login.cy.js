@@ -16,6 +16,5 @@ describe("Login", () => {
       force: true,
       delay: speed,
     });
-    cy.get(".profile-email").should("be.visible");
   });
 });

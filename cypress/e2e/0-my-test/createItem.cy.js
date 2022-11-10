@@ -21,10 +21,7 @@ describe("Create post", () => {
       delay: speed,
     });
     cy.wait(speed);
-    cy.get('[data-cy="postTitleInput"]').type("Jan Haug", {
-      force: true,
-      delay: speed,
-    });
+    cy.get('[data-cy="postTitleInput"]').type("Jan Haug").click();
     cy.get("input#postMedia").type(
       "https://docplayer.me/docs-images/46/17426375/images/page_17.jpg"
     );
