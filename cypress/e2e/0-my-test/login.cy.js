@@ -1,4 +1,4 @@
-const speed = 200;
+const speed = 500;
 
 describe("Login", () => {
   it("can login as valid user", () => {
